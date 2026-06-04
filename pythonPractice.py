@@ -136,18 +136,105 @@
 # print(marks[-3 : -1])
 
 # list methods
-    # append
+    # append add one element at the end
 # list = [ 20 ,30 ,40 ,50 ,60 ]
 # list.append(70)
 # print(list)
 
-    # sort
+    # sort in ascending  order
 # list = [ 60 , 50 , 40 , 30 , 20]
 # list.sort()
 # print(list)
 
-    # sort reverse
+    # sort reverse (sort in descenting order)
 # list = [ 60 , 50 , 40 , 30 , 20]
 # list.sort(reverse=True)
 # print(list)
 
+    # reverse list
+# list = ['a' , 'b' , 'c' , 'd' , 'e']
+# list.reverse()
+# print(list)
+
+    # insert element at index
+# list = [ 1 , 2 , 4 ,5 ]
+# list.insert(2 , 3)
+# print(list)
+
+    # removes first occurrence of element 
+# list = [ 0 , 1 , 1 , 2 , 3 ]
+# list.remove(1)  # ye dekhe ga ke phla 1 konsa hai is ko remove kr dega
+# print(list)
+
+    #  pop remove element at index
+# list = [ 0 , 1 , 2 , 2 , 3 , 4 ]
+# list.pop(3)
+# print(list)
+
+# Tuple 
+# list = ( 1,)
+# print(list)
+# print(type(list))
+
+# tuple method 
+    # tup.index(element) return index of first occurrence
+# tup = ( 1, 2, 3, 4, 5,)
+# print(tup.index(4))
+
+    # tuple.count
+# tup = (1, 2, 3, 4, 5, 2, 2,)
+# print(tup.count(2))
+
+# practice Question 
+# movies = []
+
+# mov1 = str(input("enter first movie name :"))
+# mov2 = str(input("enter second movie name :"))
+# mov3 = str(input("enter third movie name :"))
+
+# movies.append(mov1)
+# movies.append(mov2)
+# movies.append(mov3)
+
+# print(movies)
+
+# list1 = input("enter a palindrome word : ")
+
+# my_list = list(list1)
+
+# copy_list = my_list.copy()
+# copy_list.reverse()
+
+# if(my_list ==  copy_list):
+#     print("Palindrome")
+# else:
+#     print( "Not Palindrome")
+
+# grade = input(" Enter a grade : ")
+
+# tup = ( "C" , "B" , "A" , "A" , "C" , "A" , "B" , "D" ,"C")
+ 
+# count =  tup.count(grade)
+
+# print(count)
+
+# List = ["C" , "B" , "A" , "A" , "C" , "A" , "B" , "D" ,"C"]
+# List.sort()
+# print(List)
+
+# fruit = []
+# fruit.append(input("Enter Your 1st Fruit Name : "))
+# fruit.append(input("Enter Your 2nd Fruit Name : "))
+# fruit.append(input("Enter Your 3rd Fruit Name : "))
+# fruit.append(input("Enter Your 4th Fruit Name : "))
+# fruit.append(input("Enter Your 5th Fruit Name : "))
+
+# print(fruit)
+
+word = input("Enter Your Word : ")
+
+word2 = []
+ 
+count = word2.count(word)
+
+print(count)
