@@ -231,10 +231,171 @@
 
 # print(fruit)
 
-word = input("Enter Your Word : ")
+# word = input("Enter Your Word : ")
 
-word2 = []
+# word2 = []
  
-count = word2.count(word)
+# count = word2.count(word)
 
-print(count)
+# print(count)
+
+        # dictionary
+# dictionary are used to store data value in key:value pairs
+# they are unordered , mutable(changeable) & don't allow duplicate key
+
+# dict = {
+#     "name" : "aman",
+#     "age" : 20,
+#     "goals" : ("software engineer" , "programmer"),
+#     "dream" : ["pilot" , "enterprinior"],
+#     "is_adult" : True,
+#     12.99 : 94.4
+# }
+
+# dict["name"] = "Aman"
+# dict["surname"] = "Hussain"
+# print(dict)
+
+        # nested dictionary
+# dict = {
+#     "name": "Aman hussain",
+#     "class": "2nd year",
+#     "group": "Pre-engineering",
+#     "Subject": {
+#         "urdu": 57,
+#         "English": 65,
+#         "PST": 38,
+#         "Mathematic": 72,
+#         "physics": 54,
+#         "chemistry": 47,
+#     }
+# }
+# print(dict["Subject"])
+# print(dict)
+
+        # dictionary methods
+    # myDict.keys()  #returns all keys
+dict = {
+    "name": "Aman hussain",
+    "class": "2nd year",
+    "group": "Pre-engineering",
+    "Subject": {
+        "urdu": 57,
+        "English": 65,
+        "PST": 38,
+        "Mathematic": 72,
+        "physics": 54,
+        "chemistry": 47,
+    }
+}
+# print(dict.keys())
+# print(list(dict.keys()))
+# print(len(list(dict.keys())))
+
+    # myDict.value() #returns all values
+# print(dict.values())
+# print(list(dict.values()))
+# print(len(list(dict.values())))
+
+    # myDict.items() #returns all (keys,values) pairs as tuples
+# print(dict.items())
+# print(list(dict.items()))
+# print(len(list(dict.items())))
+
+    # myDict.get("key") #returns the key according to value 
+# print(dict["name1"]) # error
+# print(dict.get("name1")) # none
+
+    # myDict.update(newDict) # inserts the  specified  items  to the  dictionary 
+# new_dict = {"section": "B" , "college name":"Pechs college"}
+# dict.update(new_dict)
+# print(dict)  
+
+        
+    # set in python 
+# set is the collection  of the unordered items
+# each element  in the set must be  unique  &  immutable
+
+# collection = { 1, 2, 3, 4, "hello", "aman" , 1, 2, 3, 4, 5, }
+# print(collection)
+
+# collection = set()  # empty set 
+# print(type(collection))
+
+    #  set methods
+# set.add()  # add an element
+collection  = set()
+collection.add(1)
+collection.add("aman")
+collection.add(2)
+
+# print(collection)
+
+# set.remove() # remove the element
+
+# collection.remove(2)
+# collection.remove("aman")
+# print(collection)
+
+# set.clear() # empties the set
+
+# collection.clear()
+# print(collection)
+
+# set.pop() # remove the the random value
+
+# collection.pop()
+# print(collection)
+
+# sets = {"aman" , "hussain" , "hello"}
+# print(sets.pop())
+
+#  set.union(set2) # combine both side values & returns new
+
+# set1 = {1, 2, 3, 5 , 7 , 0}
+# set2 = {4, 0, 6, 7 , 8 , 9}
+
+# print(set1.union(set2))
+
+#  set.intersection(set2) # combine common values & returns new 
+
+# print(set1.intersection(set2))
+
+    # Practice Question
+
+#  Q1 dict = {
+#     "cat" : "a small animal",
+#     "table" : ["this is a facgniture table" , "list of facts & figures"]
+# }
+
+# print(dict)
+
+# Q2
+# set1 = {"python","java","c","python","javascript"}
+# set2 = {"java","python","javascript","c","c"}
+
+# print(len(set1.union(set2)))
+
+# Q3
+
+# marks = {}
+
+# x = int(input("enter phy marks : "))
+# marks.update({"phy" : x})
+
+# x = int(input("enter chem marks : "))
+# marks.update({"chem" : x})
+
+# x = int(input("enter math marks : "))
+# marks.update({"math" : x})
+
+# x = int(input("enter english marks : "))
+# marks.update({"enlish" : x})
+
+# x = int(input("enter urdu marks : "))
+# marks.update({"urdu" : x})
+
+# x = int(input("enter islamiat marks : "))
+# marks.update({"islamiat" : x})
+
+# print(marks)
