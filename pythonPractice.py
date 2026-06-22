@@ -275,19 +275,19 @@
 
         # dictionary methods
     # myDict.keys()  #returns all keys
-dict = {
-    "name": "Aman hussain",
-    "class": "2nd year",
-    "group": "Pre-engineering",
-    "Subject": {
-        "urdu": 57,
-        "English": 65,
-        "PST": 38,
-        "Mathematic": 72,
-        "physics": 54,
-        "chemistry": 47,
-    }
-}
+# dict = {
+#     "name": "Aman hussain",
+#     "class": "2nd year",
+#     "group": "Pre-engineering",
+#     "Subject": {
+#         "urdu": 57,
+#         "English": 65,
+#         "PST": 38,
+#         "Mathematic": 72,
+#         "physics": 54,
+#         "chemistry": 47,
+#     }
+# }
 # print(dict.keys())
 # print(list(dict.keys()))
 # print(len(list(dict.keys())))
@@ -324,10 +324,10 @@ dict = {
 
     #  set methods
 # set.add()  # add an element
-collection  = set()
-collection.add(1)
-collection.add("aman")
-collection.add(2)
+# collection  = set()
+# collection.add(1)
+# collection.add("aman")
+# collection.add(2)
 
 # print(collection)
 
@@ -399,3 +399,86 @@ collection.add(2)
 # marks.update({"islamiat" : x})
 
 # print(marks)
+
+        # loops in python
+# loops are used to repeat instructions
+#  loops 2 hoty hain 1) while loops 2) for loops
+
+# i = 1
+# while i <= 10000:
+#     print("Aman" , i)
+#     i += 1
+#  print(i)
+
+# i = 10
+# while i >= 1:
+#     print(i)
+#     i -= 1
+
+# Q1
+# i = 1
+# while i <= 100:
+#     print(i)
+#     i += 1
+
+# Q2
+# i = 100
+# while i >= 1:
+#     print(i)
+#     i -= 1
+
+# Q3
+# n = 3
+# i = 1
+# while i <= 10:
+#     print(n * i)
+#     i += 1
+
+# Q4
+# list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# i = 0
+# while i < len(list):
+#     print(list[i])
+#     i += 1
+
+# Q5
+# list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100 , 25]
+# x = int(input("Enter the num :"))
+# i = 0
+# while i < len(list):
+#     if list[i] == x:
+#         print("found at index", i)
+#     else:
+#         print("finding..." , i)
+#     i += 1
+
+# i = 1
+# while i <= 10:
+#     print(i)
+#     if (i == 3):
+#         break #used to ter,imate the loop when encountered
+#     i += 1 
+
+# i = 0
+# while i <= 10:
+#     if (i == 3):
+#         i += 1 
+#         continue #used to ter,imate the loop when encountered
+#     print(i)
+#     i += 1
+
+# i = 0
+# while i <= 100:
+#     if (i%6 == 0):
+#         i += 1 
+#         continue #used to ter,imate the loop when encountered
+#     print(i)
+#     i += 1
+
+# for loops
+num = [1, 2, 3, 4, 5]
+for val in num:
+    print(val)
+
+
+    
