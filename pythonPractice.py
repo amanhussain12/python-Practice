@@ -476,9 +476,176 @@
 #     i += 1
 
 # for loops
-num = [1, 2, 3, 4, 5]
-for val in num:
-    print(val)
+# num = [1, 2, 3, 4, 5]
+# for val in num:
+#     print(val)
+
+# str = "Aman Hussain"
+
+# for char in str:
+#     if (char == "a"):
+#         print("found")
+#         continue
+#     else:
+#         print("end")
 
 
+# for num in list:
+#     print(num)
     
+# list = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 25)
+# x = int(input("Enter a Num...:"))
+
+# idx = 0
+# for el in list:
+#     if (el == x):
+#         print("idx", idx);
+
+#     idx += 1
+
+# range()
+# range function returns a sequence of number, starting from 0 by defualt, and icrements by 1 
+# (by defualts), and stops before specified number.
+
+# seq = range(5)
+
+# for i in seq:
+#     print(i)
+
+# for i in range(10): # stop value
+#     print(i)    
+
+# for i in range(2, 10): # starting & stoping value
+#     print(i)    
+
+# for i in range(2, 101, 2): # start , stop & step value
+#     print(i)    
+
+# Q1
+# for i in range(1, 101):
+#     print(i)
+
+
+# Q2
+# for i in range(100 , 0 , -1):
+#     print(i)
+
+# Q3
+
+# n = int(input("Enter the num... :"))
+
+# for i in range(1 , 11):
+#     print(n * i)
+
+# n = int(input("enter the sum number :"))
+
+# sum = 0 
+# for i in range(1, n+1):
+#     print(i)
+#     sum += i
+
+# print("total sum", sum)
+
+# i = 1
+# while i <= n:
+#     print(i)
+#     sum += i
+#     i += 1
+
+# print("total sum ", sum)
+
+# n = int(input("enter a factorial number "))
+# fact = 1
+# i = 1
+
+# while i <= n:
+#     print(i)
+#     fact *= i
+#     i += 1
+
+# print("factorial value", fact)
+
+# n = 5
+# fact = 1
+
+# for i in range(1 , n+1):
+#     fact *= i
+
+# print("factorial =", fact)
+
+#               function Defination
+# def calc_add(a, b, c): # parameter
+#     sum = a + b + c
+#     add = sum * 3
+#     print(add)
+#     return add
+
+# calc_add(5, 18, 24) # arrgument
+
+#           Function 2 types
+# Buit-in function         |  # user defined function
+    # print() # len()      |  
+    # type()  # range()    |    jo user khud banata hai function    
+
+# defult parameter
+
+# def calc_num(a=3 , b=9):
+#     print(a*b)
+#     return
+
+# calc_num()
+
+# practice questions
+
+# Q1
+# num = [ 1, 2, 3, 4, 5]
+
+# def calc_list(list):
+#     print(len(list))
+
+# calc_list(num)
+
+# Q2
+# cities = ["karachi", "lahore", "islamabad"]
+# cities1 = ["peshawar", "multan", "quetta"]
+
+# def print_cities(list):
+#     for item in list:
+#       print(item, end=" ")
+
+# print_cities(cities)
+# print_cities(cities1)
+
+# Q3
+
+# n = 5
+# fact = 1
+# i = 1
+
+# def find_fact(fact):
+#     for i in range(1 , n+1):
+#         fact *= i
+#         print("factorial =", fact)
+
+# find_fact(fact)
+
+# n = int(input("enter a factorial number "))
+
+# def find_fact(n):
+#     fact = 1
+#     i = 1
+#     while i <= n:
+#         fact *= i
+#         i += 1
+#         print("factorial value", fact)
+
+# find_fact(8)
+
+# price = int(input("How much Dollar in PKR :"))
+
+# def converter(usd_val):
+#     pkr_val = usd_val * 279
+#     print(usd_val , "USD =" , pkr_val , "PKR" )
+
+# converter(price)
+
